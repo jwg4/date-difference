@@ -22,6 +22,27 @@ namespace DateDifference
     }
 
     [Test]
+    public void LaterTheSameDayTest()
+    {
+      ddClass.SetDates(new DateTime(2013, 7, 21, 4, 15, 0), new DateTime(2013, 7, 21, 6, 15, 0));
+      CheckResults(0, 0, 0);
+    }
+
+    [Test]
+    public void LaterTheNextDayTest()
+    {
+      ddClass.SetDates(new DateTime(2013, 7, 21, 4, 15, 0), new DateTime(2013, 7, 22, 6, 15, 0));
+      CheckResults(0, 0, 1);
+    }
+
+    [Test]
+    public void EarlierTheNextDayTest()
+    {
+      ddClass.SetDates(new DateTime(2013, 7, 21, 6, 15, 0), new DateTime(2013, 7, 22, 4, 15, 0));
+      CheckResults(0, 0, 0);
+    }
+
+    [Test]
     public void AlmostTwoYearsTest()
     {
       ddClass.SetDates(new DateTime(2010, 8, 29), new DateTime(2012, 8, 14));
