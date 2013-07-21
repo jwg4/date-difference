@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateDifference", "DateDifference\DateDifference.csproj", "{34D82F97-C939-45EA-9C90-71D68745E1AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimePeriod.Desktop", "TimePeriod-1.4.11\TimePeriod\TimePeriod.Desktop.csproj", "{92D30435-D11B-4FB0-81AE-350FABA83D9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34D82F97-C939-45EA-9C90-71D68745E1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D82F97-C939-45EA-9C90-71D68745E1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D82F97-C939-45EA-9C90-71D68745E1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D82F97-C939-45EA-9C90-71D68745E1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D30435-D11B-4FB0-81AE-350FABA83D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D30435-D11B-4FB0-81AE-350FABA83D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D30435-D11B-4FB0-81AE-350FABA83D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D30435-D11B-4FB0-81AE-350FABA83D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
