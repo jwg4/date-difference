@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="jwg.cs" />
     <Compile Include="Jon.cs" />
     <Compile Include="Chuck_Rostance.cs" />
     <Compile Include="DateDifferenceTests.cs" />
