@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NodaTime">
+      <HintPath>..\packages\NodaTime.1.1.0\lib\net35-Client\NodaTime.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
     </Reference>
@@ -56,6 +59,7 @@
     <Compile Include="lc.cs" />
     <Compile Include="LukeH.cs" />
     <Compile Include="Malu_MN.cs" />
+    <Compile Include="NodaTimePeriod.cs" />
     <Compile Include="pk.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rajeshwaran_S_P.cs" />
