@@ -83,6 +83,7 @@
     <Compile Include="ho1.cs" />
     <Compile Include="IDateDifference.cs" />
     <Compile Include="Jani.cs" />
+    <Compile Include="Kirk_Woll.cs" />
     <Compile Include="lc.cs" />
     <Compile Include="LukeH.cs" />
     <Compile Include="Malu_MN.cs" />
