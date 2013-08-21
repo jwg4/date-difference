@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateDifference", "DateDifference\DateDifference.csproj", "{34D82F97-C939-45EA-9C90-71D68745E1AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimePeriod.Desktop", "TimePeriod-1.4.11\TimePeriod\TimePeriod.Desktop.csproj", "{92D30435-D11B-4FB0-81AE-350FABA83D9E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B0C58C73-5C21-471E-AA93-3FA8FE6C0495}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
