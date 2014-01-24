@@ -14,17 +14,17 @@ namespace DateDifference
 
     public int GetYears()
     {
-      return m_diff.Years;
+      return m_diff.ElapsedYears;
     }
 
     public int GetMonths()
     {
-      return m_diff.Months;
+      return m_diff.ElapsedMonths;
     }
 
     public int GetDays()
     {
-      return m_diff.Days;
+      return m_diff.ElapsedDays;
     }
   }
 
